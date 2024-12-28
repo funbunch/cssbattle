@@ -1,0 +1,36 @@
+<div class="a"></div>
+<div class="cir b"></div>
+<div class="cir c"></div>
+<div class="cir d"></div>
+
+<style>
+  body {
+    background: #6592CF;
+    display: grid;
+    place-items: center;
+  }
+  .cir {
+    border-radius: 50%;
+    position: absolute;
+    aspect-ratio: 1;
+  }
+  .a {
+    background: #243D83;
+    width: 300;
+    height: 150px;
+    position: relative;
+  }
+  .b {
+    background: #6592CF;
+    width: 250px;
+  }
+  .c {
+    background: #243D83;
+    width: 150px;
+  }
+   .d {
+    background: #EEB850;
+    width: 50px;
+  }
+  
+</style>

@@ -1,0 +1,32 @@
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<style>
+  body {
+    background:#62306D;
+    padding: 50px;
+    margin:0;
+  }
+  div {
+    width:100;
+    aspect-ratio:1;
+    background:#F7EC7D;
+    position:absolute;
+  }
+  .a {
+    top:50px;
+    left:150px;
+    border-radius:50px 50px 0 0;
+  }
+  .b,.c {
+    border-radius:0 0 50px 50px;
+  }
+  .b {
+    left:50;
+    top:150;
+  }
+  .c {
+    top:150;
+    right:50;
+  }
+</style>

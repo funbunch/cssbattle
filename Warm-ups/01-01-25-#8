@@ -1,0 +1,68 @@
+<div class="s"></div>
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="c2"></div>
+<div class="e"></div>
+<div class="f"></div>
+<div class="g"></div>
+<style>
+  body {
+    background:#6592CF;
+  }
+  .s {
+    width:140px;
+    height:100px;
+    background:#060F55;
+    border-radius:0 0 100px 100px;
+    position:absolute;
+    top:66.5%;
+    left:50%;
+    transform:translate(-50%, -50%);
+  }
+    .s::after {
+    content:'';
+    position:absolute;
+    background:#060F55;
+    width:20px;
+    height:110px;
+    left:42%;
+    bottom:-100px;
+  } 
+  .a,.b,.c,.c2,.e,.f,.g {
+    width:20px;
+    height:110px;
+    top:50px;
+    z-index:100;
+    position:absolute;
+    border-radius:100vw;
+  }
+  .a {
+    left:130px;
+    background:#060F55;
+  }
+  .b {
+    left:150px;
+    background:#6592CF;
+  }
+  .c {
+    left:170px;
+    background:#060F55;
+  }
+  .c2 {
+    left:190px; 
+    background:#6592CF;
+  }
+  .e {
+    left:210px;
+    background:#060F55;
+  }
+  .f {
+    left:230px; 
+    background:#6592CF;
+  }
+  .g {
+    left:250px;
+    background:#060F55;
+  }
+</style>
